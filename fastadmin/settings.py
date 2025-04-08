@@ -1,11 +1,12 @@
 import os
 from pathlib import Path
-from dotenv import load_dotenv # pip install  python-dotenv
+from dotenv import load_dotenv  # pip install  python-dotenv
 
 load_dotend()
 
 ROOT_DIR = Path(__file__).resolve().parent
 
+print('here')
 
 class Settings:
     """Settings"""
